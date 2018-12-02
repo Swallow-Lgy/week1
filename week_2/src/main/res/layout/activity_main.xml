@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.week_2.TitleBarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        />
+    <com.example.week_2.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="#00ff00"
+        android:text="搜索历史"
+        />
+    <com.example.week_2.WeekFlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:layout_marginTop="10dp"
+        />
+    <com.example.week_2.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="#00ff00"
+        android:text="热门搜索"
+        />
+    <com.example.week_2.WeekFlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hot_search"
+        android:layout_marginTop="10dp"
+
+        />
+</LinearLayout>
